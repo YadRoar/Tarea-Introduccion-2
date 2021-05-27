@@ -1,0 +1,53 @@
+
+/* Estilos body*/
+
+header{ 
+    background-color: #cbd632;
+    text-align-last: center;
+    width: 99.8%;
+    padding: 1.7% 0%;
+    margin:0%}
+
+
+ /*Estilo global */
+
+
+div.container{
+    padding: 1% 14%;
+    margin: 0% 20%;
+    width: 29%;
+    background-color: rgba(26, 182, 169, 0.788);}
+
+
+ .container h1,h2{
+    text-align-last: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(145, 64, 64);}
+
+
+.container p{
+    text-align-last: center;
+    font-family: cursive;}
+
+.container p span{color: red;}
+
+
+.container ul{
+    text-align-last: center;
+    border-radius: 65%;
+    background-color: rgba(17, 12, 1, 0.938);
+    border:solid;color:rgb(154, 163, 128);
+    margin: 0% 37%;
+    padding: 1% 0%;
+    width: 44%;}
+
+ 
+    /*Estilos footer */
+
+footer{ 
+    background-color: #cbd632;
+    text-align-last: center;color: #161616;
+    font-size: small;
+    width: 99%;
+    margin:0%;
+    padding:1% 0%; }
