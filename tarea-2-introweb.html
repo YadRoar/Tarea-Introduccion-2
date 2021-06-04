@@ -9,52 +9,72 @@
 
     <link rel="stylesheet" type="text/css" href="css/estilos.css" >
     <script src="https://kit.fontawesome.com/c672bf2245.js" crossorigin="anonymous"></script> 
-
+  
 </head>
 
 <body>
-    
+
   <header> 
 
     <img>
     <img src="redes.png"  alt="redes"  width="200"  />
 
 
-  <div>
+   <div>
 
     <a href="https://es.wikipedia.org/wiki/HTML5">HTML5</a> |
     <a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada">CSS</a> |
     <a href="https://es.wikipedia.org/wiki/JavaScript">JavaScript</a>
      
-  </div>
-
-
+   </div>
   </header>
   
-  <div class="container"> 
+  <main class="container"> 
 
     <h1>Mi primer página</h1>
 
 
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> 
-  <p>Quod perspiciatis unde eos cumque.<span>dignissimos porro eaque aliquid ab cum recusandae labore,</span></p> 
-  <p>aperiam alias. Perspiciatis illum ea suscipit atque!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> 
+    <p>Quod perspiciatis unde eos cumque.<span>dignissimos porro eaque aliquid ab cum recusandae labore,</span></p> 
+    <p>aperiam alias. Perspiciatis illum ea suscipit atque!</p>
 
 
     <h2>Lista de algunas redes sociales</h2>
 
-<ul>
+   <ul>
 
-  <dt><i class="fab fa-facebook"></i><a style="color: darkorange;" href="https://www.facebook.com/">Facebook</a></dt>  
-  <dt><i class="fab fa-instagram"></i><a style="color: chartreuse;" href="https://www.instagram.com/">Instagram</a></dt> 
-  <dt><i class="fab fa-twitter"></i><a style="color: lightseagreen;" href="https://twitter.com/">Twitter</a></dt>
-  <dt><i class="fab fa-linkedin"></i><a style="color: mediumspringgreen;" href="https://cr.linkedin.com/">LinkedIn</a></dt> 
+     <dt><i class="fab fa-facebook"></i><a style="color: darkorange;" href="https://www.facebook.com/">Facebook</a></dt>  
+     <dt><i class="fab fa-instagram"></i><a style="color: chartreuse;" href="https://www.instagram.com/">Instagram</a></dt> 
+     <dt><i class="fab fa-twitter"></i><a style="color: lightseagreen;" href="https://twitter.com/">Twitter</a></dt>
+     <dt><i class="fab fa-linkedin"></i><a style="color: mediumspringgreen;" href="https://cr.linkedin.com/">LinkedIn</a></dt> 
 
-</ul>
+   </ul>
 
-</div>
+     <button id="toggleBloque" onclick="toggleSection()">Ocultar Operaciones</button>
+
+   <div id="contenedorOperaciones">
+
+        <label for="num1">Numero 1:</label>
+        <input type="Number" id="n1" autofocus placeholder="Ingresa un numero" >
+        <label for="num2">Numero 2:</label>
+        <input type="Number" id="n2" autofocus placeholder="Ingresa un numero">
+        
+        <br>
+
+     <div class="botones">
+       <input type="button" value="Sumar" onclick="suma();">
+       <input type="button" value="Restar" onclick="resta();">
+       <input type="button" value="Multiplicar" onclick="multiplicacion();">
+      </div>
+
+     <p>El resultado de la operacion es:<span id="res"></span></p>
+
+    </div>
+
+  </main>
 
 <footer>Hecho por Yadith Rodriguez</footer>
 
+<script src="tarea4javs\tar4.js"></script>
 </body>
 </html>
